@@ -1,11 +1,11 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" /> Bones som el grup de Alvaro y Bryan</h1>
-<h3 align="center">Formem part del GRUP 10</h3>
+<h1 align="center"><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" /> Bones soc Alvaro </h1>
+<h3 align="center">Dedicat al Desenvolupament Web Full-Stack</h3>
 
 <div align="center">
-Aquest es el disseny del projecte en l'apartat de github <br>
+Aquest es el disseny del projecte de l'apartat de Github <br>
  <br>
 
-<i>Esperem que us agradi!</i> 🚀
+<i>Espero que us agradi!</i> 🚀
 <br>
 <br>
 <br>
@@ -80,24 +80,10 @@ Aquest es el disseny del projecte en l'apartat de github <br>
 </summary> <br> <br>
 
 <div>
-  <h2>Diagrama Arquitectura Sistema</h2>
-  <a href="/docs/sistemes/Diagrama_arquitectura_sistema.drawio.png" >
-      <img src="/docs/sistemes/Diagrama_arquitectura_sistema.drawio.png"/>
-    </a>
-
-<div>
   <h2> Requisits Bàsics per a l'execució de l'aplicació</h2>
-  <a href="/docs/sistemes/requisits.pdf" >
-      <img src="docs/sistemes/hola.png"/>
+  <a href="/docs/sistemes/SISTEMES.pdf" >
+      <img src="docs/sistemes/SISTEMES.png"/>
     </a>
-</div>
-
-<div>
-  <a href="/docs/sistemes/requisits.pdf" >
-      <img src="docs/sistemes/hola2.png"/>
-    </a>
-
-
 </div>
 
 
