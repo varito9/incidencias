@@ -1,0 +1,59 @@
+services:
+  apache_php_mysql_mongodb:
+    image: ebota/daw:apache_php_mysql_mongodb
+    ports:
+      - "8080:80"
+    volumes:
+      - ./php:/var/www/html
+   
+    command: /bin/bash -c "composer install --no-interaction --no-plugins --no-scripts && echo WEBSERVER_________UP_________AND_______RUNNIIIIIIING && apache2-foreground"
+    environment:
+      VAR1: "sóc una pera i estic al docker-compose"
+      VAR2: ${VAR2}
+    depends_on:
+       - db
+
+
+  db:
+    image: mysql:9.3
+    environment:
+      MYSQL_ROOT_PASSWORD: passwordDeRootQueNoShaDeFerServirMai
+      MYSQL_USER: usuari
+      MYSQL_PASSWORD: paraula_de_pas
+      LANG: C.UTF-8
+    volumes:
+      - ./db_data:/var/lib/mysql
+      - ./db_init:/docker-entrypoint-initdb.d
+
+ 
+  adminer:
+    image: adminer
+    ports:
+      - "8081:8080"
+    depends_on:
+      - db
+
+  mongo:
+    image: mongo:latest
+    volumes:
+     
+      - mongodb_data:/data/db
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+  mongo-express:
+    image: mongo-express
+    ports:
+      - "8082:8081"
+    environment:
+      
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+    depends_on:
+      - mongo
+
+
+volumes:
+  mongodb_data:
