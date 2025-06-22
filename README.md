@@ -90,34 +90,6 @@ Aquest es el disseny del projecte de l'apartat de Github <br>
 </details>
 </div>
 
-<div>
-<details>
-<summary align="left">ANGLÈS 
-</summary> <br> <br>
-
-<div>
-  <h2> Requisits Bàsics per a l'execució de l'aplicació</h2>
-  <a href="/docs/anglès/Alvaro_Saldaña_Bryan_Ruzafa_User_Guide.pdf" >
-      <img src="docs/anglès/hola.png"/>
-    </a>
-</div>
-
-<div>
-  <a href="/docs/anglès/Alvaro_Saldaña_Bryan_Ruzafa_Script.pdf" >
-      <img src="docs/anglès/hola2.png"/>
-    </a>
-</div>
-
-<div>
-  <a href="/docs/anglès/Alvaro_Saldaña_Bryan_Ruzafa_Presentation.pdf" >
-      <img src="docs/anglès/hola3.png"/>
-    </a>
-</div>
-
-</details>
-</div>
-
-
 <br>
 <br>
 <br>
